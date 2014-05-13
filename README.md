@@ -1,7 +1,7 @@
 Pokevotes
 =========
 
-Changes all upvotes on reddit to animated pokeballs!
+A Chrome extension that changes all upvotes on reddit to animated pokeballs!
 
 
 
