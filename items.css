@@ -1,7 +1,7 @@
-/*Pokeball Upvotes for Reddit*/
+/* Pokeball Upvotes for Reddit */
 
 .arrow.up:after {
-	content: "" !important;
+    content: "" !important;
     width: 15px !important;
     height: 15px !important;
     display: inline-block !important;
@@ -11,7 +11,7 @@
 }
 
 .arrow.upmod:after {
-	content: "" !important;
+    content: "" !important;
     width: 15px !important;
     height: 15px !important;
     display: inline-block !important;
@@ -22,7 +22,7 @@
 }
 
 .compressed .arrow:not(.prev):not(.next) {
-	margin: 1px 0;
+    margin: 1px 0;
 }
 
 
@@ -32,47 +32,47 @@
 
 
 .arrow.upmod {
-   animation: catchBall ease 1.5s !important;
-   animation-iteration-count: 1 !important;
-   -webkit-animation: catchBall ease 2.7s !important;
-   -webkit-animation-iteration-count: 1 !important;
+    animation: catchBall ease 1.5s !important;
+    animation-iteration-count: 1 !important;
+    -webkit-animation: catchBall ease 2.7s !important;
+    -webkit-animation-iteration-count: 1 !important;
 }
 
 
 @keyframes catchBall {
-  0%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  4%   {transform: rotate(35deg); transform-origin: center bottom 0;}
-  8%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  12%   {transform: rotate(-35deg); transform-origin: center bottom 0;}
-  16%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  40%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  44%   {transform: rotate(35deg); transform-origin: center bottom 0;}
-  48%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  52%   {transform: rotate(-35deg); transform-origin: center bottom 0;}
-  56%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  70%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  74%   {transform: rotate(35deg); transform-origin: center bottom 0;}
-  78%   {transform: rotate(0deg); transform-origin: center bottom 0;}
-  82%   {transform: rotate(-35deg); transform-origin: center bottom 0;}
-  86%   {transform: rotate(0deg); transform-origin: center bottom 0;}
+  0%     {transform: rotate(0deg); transform-origin: center bottom 0;}
+  4%     {transform: rotate(35deg); transform-origin: center bottom 0;}
+  8%     {transform: rotate(0deg); transform-origin: center bottom 0;}
+  12%    {transform: rotate(-35deg); transform-origin: center bottom 0;}
+  16%    {transform: rotate(0deg); transform-origin: center bottom 0;}
+  40%    {transform: rotate(0deg); transform-origin: center bottom 0;}
+  44%    {transform: rotate(35deg); transform-origin: center bottom 0;}
+  48%    {transform: rotate(0deg); transform-origin: center bottom 0;}
+  52%    {transform: rotate(-35deg); transform-origin: center bottom 0;}
+  56%    {transform: rotate(0deg); transform-origin: center bottom 0;}
+  70%    {transform: rotate(0deg); transform-origin: center bottom 0;}
+  74%    {transform: rotate(35deg); transform-origin: center bottom 0;}
+  78%    {transform: rotate(0deg); transform-origin: center bottom 0;}
+  82%    {transform: rotate(-35deg); transform-origin: center bottom 0;}
+  86%    {transform: rotate(0deg); transform-origin: center bottom 0;}
   100%   {transform: rotate(0deg); transform-origin: center bottom 0;}
 }
 
 @-webkit-keyframes catchBall {
-  0%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0; }
-  4%   {-webkit-transform: rotate(35deg); -webkit-transform-origin: center bottom 0;}
-  8%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  12%   {-webkit-transform: rotate(-35deg); -webkit-transform-origin: center bottom 0;}
-  16%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  40%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  44%   {-webkit-transform: rotate(35deg); -webkit-transform-origin: center bottom 0;}
-  48%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  52%   {-webkit-transform: rotate(-35deg); -webkit-transform-origin: center bottom 0;}
-  56%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  70%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  74%   {-webkit-transform: rotate(35deg); -webkit-transform-origin: center bottom 0;}
-  78%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
-  82%   {-webkit-transform: rotate(-35deg); -webkit-transform-origin: center bottom 0;}
-  86%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  0%     {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0; }
+  4%     {-webkit-transform: rotate(35deg); -webkit-transform-origin: center bottom 0;}
+  8%     {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  12%    {-webkit-transform: rotate(-35deg); -webkit-transform-origin: center bottom 0;}
+  16%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  40%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  44%    {-webkit-transform: rotate(35deg); -webkit-transform-origin: center bottom 0;}
+  48%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  52%    {-webkit-transform: rotate(-35deg); -webkit-transform-origin: center bottom 0;}
+  56%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  70%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  74%    {-webkit-transform: rotate(35deg); -webkit-transform-origin: center bottom 0;}
+  78%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
+  82%    {-webkit-transform: rotate(-35deg); -webkit-transform-origin: center bottom 0;}
+  86%    {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
   100%   {-webkit-transform: rotate(0deg); -webkit-transform-origin: center bottom 0;}
 }
