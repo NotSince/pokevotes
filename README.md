@@ -1,6 +1,8 @@
-pokevotes
+Pokevotes
 =========
 
-Changes all upvotes on reddit to animated pokeballs
+Changes all upvotes on reddit to animated pokeballs!
 
-Simply drag PokeballUpvotes.crx into chrome to install. 
+
+
+Simply download [PokeballUpvotes.crx](http://www.reddit.com/r/pokemontrades), and drag into chrome to install. 
